@@ -29,3 +29,10 @@ print("Password for google.com:", my_password_manager.retrieve_password("google.
 # Update password
 my_password_manager.update_password("example.com", "newpassword123")
 print("Updated password for example.com:", my_password_manager.retrieve_password("example.com"))
+
+'''
+Example Output:
+Password for example.com: password123
+Password for google.com: securepassword123
+Updated password for example.com: newpassword123
+'''
